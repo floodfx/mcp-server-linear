@@ -1,12 +1,23 @@
 {
   "name": "mcp-server-linear",
+  "version": "0.0.1",
   "module": "index.ts",
   "type": "module",
-  "private": true,
+  "scripts": {
+    "build": "bun build index.ts --outdir build --target node",
+    "build:standalone": "bun build index.ts --compile --outfile standalone-linear-mcp-server",
+    "inspect": "npx @modelcontextprotocol/inspector bun run index.ts",
+    "prepublishOnly": "bun run build"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "@linear/sdk": "^38.0.0",
+    "fastmcp": "^1.20.2",
+    "zod": "^3.24.2"
   }
 }
