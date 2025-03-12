@@ -2,6 +2,10 @@
 
 This is a MCP server that defines tools for interacting with Linear via an MCP client.
 
+<a href="https://glama.ai/mcp/servers/stodrxddet">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/stodrxddet/badge" alt="Server Linear MCP server" />
+</a>
+
 ## Current Tools
 
 - `linear-search-issues`: Search for issues in Linear
@@ -100,4 +104,3 @@ This project was inspired by [jerhadf/linear-mcp-server](https://github.com/jerh
 ## License
 
 MIT
-
