@@ -1,5 +1,7 @@
 # mcp-server-linear
 
+[![smithery badge](https://smithery.ai/badge/@floodfx/mcp-server-linear)](https://smithery.ai/server/@floodfx/mcp-server-linear)
+
 This is a MCP server that defines tools for interacting with Linear via an MCP client.
 
 ## Current Tools
@@ -100,4 +102,3 @@ This project was inspired by [jerhadf/linear-mcp-server](https://github.com/jerh
 ## License
 
 MIT
-
